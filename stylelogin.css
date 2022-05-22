@@ -1,0 +1,30 @@
+body{
+    background-color: #bb3e20;
+}
+
+img{
+    /* display: flex; */
+    /* justify-content: center; */
+    margin-left:300px 50px;
+    background-color: #efede8;
+    border-radius: 400px;
+    border: 1px solid #c59a42;
+    margin-bottom: 10px;
+    width: 300px;
+    height: 300px;
+}
+
+.login-info{
+    /* display: flex; */
+    justify-content: center;
+     text-align: center;
+    background-color: #febf00;
+    margin: 100px auto;
+    border-radius: 50px;
+    width: 400px;
+    padding: 60px;
+}
+.signin-btn{
+    border-radius: 10px;
+    border: #febf00;
+}

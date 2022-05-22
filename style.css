@@ -1,0 +1,79 @@
+body{
+    background-color: rgba(227, 194, 124, 0.553);
+    
+}
+
+.nav-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    border: solid white 1px;
+    
+}
+
+
+h1{
+    color: rgba(43, 36, 28, 0.491);
+    display: flex;
+    justify-content: center;
+    
+}
+
+h2{
+    color: rgba(43,36,28,0.4);
+    display: flex;
+    justify-content: center;
+}
+.cl{
+    color: rgba(43,36,28,0.4);
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+.image{
+    background-color: rgb(52, 48, 21);
+    padding: 1px;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    margin-left: 40%;
+    display: flex;
+    justify-content: center;
+}
+p{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  
+    color: rgb(96, 9, 9);
+}
+.lower-headers:hover{
+    --p: 100%;
+    --s: calc(
+      50% + 0.61em
+             ); 
+    color: #fff;
+}
+.lower-headers{
+    --c: #ba7423;
+    line-height: 1.2em;
+    background: conic-gradient(from -135deg at 100% 50%, var(--c) 90deg, #0000 0)
+        0 var(--p, 0%),
+      conic-gradient(from -135deg at 1.2em 50%, #0000 90deg, var(--c) 0) 100%
+        var(--p, 0%);
+    background-size: var(--s, 0%) 200%;
+    background-repeat: no-repeat;
+    transition: 0.4s ease-in, background-position 0s;
+    text-align: center;
+    text-decoration: wavy;
+  }
+ul{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    font-style: italic;
+    color: rgb(128, 49, 20);
+    text-align: center;
+    flex-direction: column;
+}
